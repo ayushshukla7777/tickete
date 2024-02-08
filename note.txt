@@ -1,0 +1,6 @@
+How will I do this-
+1. Do the mobile site first.
+2. Make Layout and Html first
+3. Add Css for postions and roundness
+4. Get the fonts correct
+5. Make those 2 div responsive for pc.
