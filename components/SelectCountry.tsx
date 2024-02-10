@@ -11,7 +11,8 @@ import {
 
 export function SelectCountryCode() {
     return (
-        <Select>
+        
+        <Select  >
             <SelectTrigger className="p-2">
                 <SelectValue placeholder="🌏 Country code  " />
             </SelectTrigger>

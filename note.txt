@@ -6,3 +6,27 @@ How will I do this-
 5. Make those 2 div responsive for pc. 
 4. Get the fonts correct
 3. Get CSS for postions and box correct
+
+
+/* Text */
+
+width: 348px;
+height: 40px;
+
+/* Heading/Serif/Regular */
+font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+letter-spacing: 0.006em;
+
+color: #1C2024;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+

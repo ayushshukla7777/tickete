@@ -8,11 +8,11 @@ function FreeCancellation() {
       <Card className='bg-slate-50 border-gray-400 rounded-2xl p-4 my-6 flex flex-col justify-evenly items-start space-y-1'>
         <div className='w-full flex flex-row justify-between items-center'>
           <div>
-            <p>Free Cancellation</p>
+            <p className=' text-sm font-semibold '>Free Cancellation</p>
           </div>
           <Information />
         </div>
-        <p className='w-2/3'>
+        <p className='font-grey-600 text-sm font-normal w-2/3'>
           Tickets can be cancelled by 13th December, 2022
         </p>
       </Card>
@@ -20,4 +20,6 @@ function FreeCancellation() {
   )
 }
 
+
 export default FreeCancellation
+
