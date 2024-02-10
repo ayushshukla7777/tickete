@@ -16,7 +16,7 @@ function Header() {
                     <QuestionCircle />
                 </div>
             </div>
-            <div className='flex flex-row justify-center bg-black text-white p-2 items-center'>
+            <div className='flex flex-row mb-12 justify-center bg-black text-white p-2 items-center'>
                 <p>Holding your tickets for 30:00</p>
             </div>
         </>
