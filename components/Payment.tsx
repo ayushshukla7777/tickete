@@ -65,7 +65,7 @@ function Payment() {
         <div className='w-full flex flex-row justify-between items-center'>
           <div className='flex flex-row space-x-1 items-center'>
             <Badge className='rounded-md' variant="outline"><ApplePay /></Badge>
-            <p className=' text-sm font-normal font-gray-600'>Coming Soon</p>
+            <p className=' text-sm font-normal text-gray-600'>Coming Soon</p>
           </div>
           <div>
             <div className=' bg-gray-200 rounded-full w-6 h-6 top-1 left-1'></div>
@@ -77,7 +77,7 @@ function Payment() {
         <div className='w-full flex flex-row justify-between items-center'>
           <div className='flex flex-row space-x-1 items-center'>
             <Badge className='rounded-md' variant="outline"><GooglePay /></Badge>
-            <p className=' text-sm font-normal font-gray-600' >Coming Soon</p>
+            <p className=' text-sm font-normal text-gray-600' >Coming Soon</p>
           </div>
           <div>
 

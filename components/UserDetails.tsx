@@ -18,7 +18,7 @@ function UserDetails() {
         <div className='font-grey-600  text-base font-normal flex flex-col space-y-4 md:space-y-0'>
           <Input type="text" className='py-5 md:flex-grow text-base font-normal' placeholder="Name *" required />
           <div className='flex flex-col space-y-4 md:pt-4 md:pb-0 md:flex-row md:space-y-0 md:space-x-2'>
-            <div className='md:w-1/2'>
+            <div className='md:w-1/2 text-gray-600'>
               <SelectCountryCode /></div>
             <Input type="tel" className='py-5 md:w-1/2 ' placeholder="Phone Number *" required />
           </div>
