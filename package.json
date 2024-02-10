@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "nextDev": "next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "dev": "nodemon --exec 'npm run nextDev' --watch ."
+    "Nodmondev": "nodemon --exec 'npm run nextDev' --watch ."
   },
   "dependencies": {
     "@radix-ui/react-select": "^2.0.0",

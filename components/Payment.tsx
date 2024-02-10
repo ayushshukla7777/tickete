@@ -28,12 +28,12 @@ function Payment() {
           <Badge className='px-0.5 rounded-md' variant="outline"><DinersCard /></Badge>
 
         </div>
-        <div className=' font-grey-600  text-base font-normal flex w-full flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-2'>
+        <div className=' text-grey-600  text-base font-normal flex w-full flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-2'>
           <Input className='w-full' type="text" placeholder="Name on Card *" required />
           <Input className='w-full' type="number" placeholder="Card Number *" required />
         </div>
-        <div className=' font-grey-600  text-base font-normal flex w-full flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-2'>
-          <Input className='w-full' type="date" placeholder="Email *" required />
+        <div className=' text-grey-600  text-base font-normal flex w-full flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-2'>
+          <Input className='w-full' type="text" placeholder="Expiry Date *" required />
           <Input className='w-full' type="number" placeholder="&lt;CVV/CVC&gt; *" required />
         </div>
 

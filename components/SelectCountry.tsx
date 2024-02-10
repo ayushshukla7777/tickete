@@ -13,8 +13,8 @@ export function SelectCountryCode() {
     return (
         
         <Select  >
-            <SelectTrigger className="p-2">
-                <SelectValue placeholder="🌏  Country code  " />
+            <SelectTrigger className="p-2 text-gray-600">
+                <SelectValue className="text-gray-600 " placeholder="🌏  Country code  " />
             </SelectTrigger>
             <SelectContent>
                 <SelectGroup>

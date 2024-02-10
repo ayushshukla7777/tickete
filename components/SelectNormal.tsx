@@ -12,7 +12,7 @@ import {
 export function SelectNormal() {
     return (
         <Select>
-            <SelectTrigger className="p-2">
+            <SelectTrigger className="p-2 text-gray-600">
                 <SelectValue placeholder="Select * " />
             </SelectTrigger>
             <SelectContent>

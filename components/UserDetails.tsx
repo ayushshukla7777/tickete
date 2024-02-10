@@ -15,9 +15,9 @@ function UserDetails() {
       <div className='flex flex-col space-y-4 p-2 '>
         <p className=' text-2xl font-semibold '>Enter your details</p>
         <p className=' font-grey-600 text-base font-normal '>We&#39;ll be sending your tickets to the details below. Booking for a friend? Add their details.</p>
-        <div className='font-grey-600  text-base font-normal flex flex-col space-y-4 md:space-y-0 md:space-x-2'>
+        <div className='font-grey-600  text-base font-normal flex flex-col space-y-4 md:space-y-0'>
           <Input type="text" className='py-5 md:flex-grow text-base font-normal' placeholder="Name *" required />
-          <div className='flex flex-col space-y-4 md:py-4 md:flex-row md:space-y-0 md:space-x-2'>
+          <div className='flex flex-col space-y-4 md:pt-4 md:pb-0 md:flex-row md:space-y-0 md:space-x-2'>
             <div className='md:w-1/2'>
               <SelectCountryCode /></div>
             <Input type="tel" className='py-5 md:w-1/2 ' placeholder="Phone Number *" required />
@@ -45,7 +45,7 @@ function UserDetails() {
           </div>
 
           <Select>
-            <SelectTrigger className="p-2">
+            <SelectTrigger className="p-2 text-gray-600">
               <SelectValue placeholder="Multiselect * " />
             </SelectTrigger>
           </Select>
