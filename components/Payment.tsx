@@ -58,7 +58,7 @@ function Payment() {
           </p>
 
         </div>
-        <Button className='bg-black  text-xl rounded-2xl   font-normal w-full md:w-auto md:self-start md:px-6 p-4 md:py-6 '><SecureLock /> Confirm & pay  </Button>
+        <Button className='bg-black  text-xl rounded-2xl   font-normal w-full md:w-auto md:self-start md:px-6 p-4 md:py-6  '><SecureLock /> <p className='px-2'>Confirm & pay</p>  </Button>
 
       </Card>
       <Card className='bg-gray-50 border-gray-400 rounded-2xl p-4 my-6 flex flex-col justify-evenly items-start space-y-1'>

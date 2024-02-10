@@ -47,7 +47,7 @@ function MainBanner() {
                         <p className=' font-normal text-sm text-grey-600 ' > Operating hours: &#60;time&#62; to &#60;time&#62;</p>
                     </div>
                 </div>
-                
+
                 <div className='font-semibold text-sm flex flex-row space-x-2 '>
                     <People />
                     <p>5 Guests</p>
@@ -78,7 +78,7 @@ function MainBanner() {
                     </p>
 
                 </div>
-                <Button className=' bg-black max-md:hidden text-xl font-normal py-6 w-full md:px-6 p-4 md:py-6 rounded-xl'><SecureLock /> Confirm & pay  </Button>
+                <Button className=' bg-black max-md:hidden text-xl font-normal py-6 w-full md:px-6 p-4 md:py-6 rounded-xl'><SecureLock /> <p className='px-2'>Confirm & pay</p>  </Button>
 
             </Card>
 
