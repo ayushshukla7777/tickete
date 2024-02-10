@@ -58,22 +58,22 @@ function Payment() {
           </p>
 
         </div>
-        <Button className='bg-black  text-xl rounded-xl   font-normal w-full md:w-auto md:self-start md:px-6 p-4 md:py-6 '><SecureLock /> Confirm & pay  </Button>
+        <Button className='bg-black  text-xl rounded-2xl   font-normal w-full md:w-auto md:self-start md:px-6 p-4 md:py-6 '><SecureLock /> Confirm & pay  </Button>
 
       </Card>
-      <Card className='bg-slate-200 border-gray-400 rounded-2xl p-4 my-6 flex flex-col justify-evenly items-start space-y-1'>
+      <Card className='bg-gray-50 border-gray-400 rounded-2xl p-4 my-6 flex flex-col justify-evenly items-start space-y-1'>
         <div className='w-full flex flex-row justify-between items-center'>
           <div className='flex flex-row space-x-1 items-center'>
             <Badge className='rounded-md' variant="outline"><ApplePay /></Badge>
             <p className=' text-sm font-normal font-gray-600'>Coming Soon</p>
           </div>
           <div>
-            <div className=' bg-slate-400 rounded-full w-6 h-6 top-1 left-1'></div>
+            <div className=' bg-gray-200 rounded-full w-6 h-6 top-1 left-1'></div>
           </div>
         </div>
 
       </Card>
-      <Card className='bg-slate-200 border-gray-400 rounded-2xl p-4 my-6 flex flex-col justify-evenly items-start space-y-1'>
+      <Card className='bg-gray-50 border-gray-400 rounded-2xl p-4 my-6 flex flex-col justify-evenly items-start space-y-1'>
         <div className='w-full flex flex-row justify-between items-center'>
           <div className='flex flex-row space-x-1 items-center'>
             <Badge className='rounded-md' variant="outline"><GooglePay /></Badge>
@@ -81,7 +81,7 @@ function Payment() {
           </div>
           <div>
 
-            <div className=' bg-slate-400 rounded-full w-6 h-6 top-1 left-1'></div>
+            <div className=' bg-gray-200 rounded-full w-6 h-6 top-1 left-1'></div>
 
           </div>
         </div>

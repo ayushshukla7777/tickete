@@ -8,7 +8,7 @@ import { Separator } from "@/components/ui/separator";
 function FrequentlyAskedQuestions() {
   return (
 
-    <div className='flex flex-col space-y-4 mt-8 p-2 md:grid md:grid-cols-5 md:gap-4 '>
+    <div className='flex flex-col space-y-4 mt-8 p-2 md:grid md:grid-cols-5 md:gap-4 md:mb-8 '>
       {/* <Separator className='w-full' /> */}
       <div className='md:col-start-1 md:col-end-3 md:row-start-1 flex flex-col space-y-2'>
         <p className='font-semibold text-2xl  md:mt-4'>Frequently Asked Questions</p>

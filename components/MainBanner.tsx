@@ -12,9 +12,13 @@ function MainBanner() {
         <div>
             <Card className=' rounded-3xl rounded-b-none p-4 mb-0 flex flex-col items-start  justify-around space-y-2'>
                 <Image width={500}
-                    height={500} src="/pexels-bri.jpg"
+                    height={500} src="/gallery1.png"
                     alt="Banner Image"
-                    className='rounded-2xl ' />
+                    className='max-md:hidden rounded-2xl shadow-none ' />
+                <Image width={500}
+                    height={500} src="/gallery2.png"
+                    alt="Banner Image"
+                    className='md:hidden rounded-2xl  shadow-none ' />
                 <div className=' flex flex-row space-x-1 '>
                     <RedStar />
                     <p className=' font-semibold text-sm '>4.9</p>

@@ -12,7 +12,7 @@ function FreeCancellation() {
           </div>
           <Information />
         </div>
-        <p className='font-grey-600 text-sm font-normal w-2/3'>
+        <p className='font-grey-600 text-xs font-normal w-2/3'>
           Tickets can be cancelled by 13th December, 2022
         </p>
       </Card>

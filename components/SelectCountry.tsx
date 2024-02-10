@@ -14,7 +14,7 @@ export function SelectCountryCode() {
         
         <Select  >
             <SelectTrigger className="p-2">
-                <SelectValue placeholder="🌏 Country code  " />
+                <SelectValue placeholder="🌏  Country code  " />
             </SelectTrigger>
             <SelectContent>
                 <SelectGroup>

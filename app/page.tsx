@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className='flex flex-col md:px-24 md:grid md:grid-cols-3 md:gap-4'>
+      <div className='flex flex-col max-md:px-3 md:px-24 md:grid md:grid-cols-3 md:gap-4'>
         <div className="md:col-start-1 md:col-end-3">
           <p className=" max-md:mb-8 font-serif font-medium ml-2 mt-8 text-3xl md:text-6xl p-2 ">Confirm & pay</p>
         </div>
